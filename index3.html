@@ -51,10 +51,6 @@
   <script>
     async function sendShare() {
       const result = await liff.shareTargetPicker([{
-        "type": "flex",
-        "altText": "มารับเครดิตฟรีกันเถอะ",
-    "type": "flex",
-    "contents": {
   "type": "carousel",
   "contents": [
     {
@@ -203,7 +199,6 @@
       }
     }
   ]
-}
       }])
       if (result) {
         liff.closeWindow()
